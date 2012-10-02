@@ -204,6 +204,8 @@
 	top: 30%;
 	left: 15%;
 	text-align: center;
+		cursor: pointer;
+	
 	background-repeat: no-repeat;
 	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 }
@@ -216,6 +218,8 @@
 	top: 28%;
 	left: 15%;
 	text-align: center;
+		cursor: pointer;
+	
 	background-repeat: no-repeat;
 	font: 17px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 }
