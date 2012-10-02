@@ -1,242 +1,199 @@
-body{
 .wrapper {
-   
-    width:900px;
-    margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
 }
+
 .mainDiv {
 	width: inherit;
-	
 	height: auto;
 	position: absolute;
-	top:0px;
-	
+	top: 0px;
 	bottom: 30px;
-		/*background-image: url("../images/bg.jpeg");*/
-
-	background-color: #eef5ff ; 
-
-
-	border-right: solid 1px #93b5e8;	
-	border-left: solid 1px #93b5e8;
-   -moz-box-shadow:
-        inset 5px 0 5px -5px black,
-        inset -5px 0 5px -5px black;
-    -webkit-box-shadow:
-        inset 5px 0 5px -5px black,
-        inset -5px 0 5px -5px black;
-  
+	/*background-image: url("../images/bg.jpeg");*/
+	background-color: #eef5ff;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+	-moz-box-shadow: inset 5px 0 5px -5px black, inset -5px 0 5px -5px black;
+	-webkit-box-shadow: inset 5px 0 5px -5px black, inset -5px 0 5px -5px black;
 }
 
 .bannerDiv {
 	width: auto;
 	height: 160px;
 	position: absolute;
-	top:0px;
+	top: 0px;
 	left: 0px;
 	right: 0px;
-background-color:white;
-/*#880245 #440516;     
+	background-color: white;
+	/*#880245 #440516;     
 	border-bottom: solid 1px #191970;*/
 	-webkit-box-shadow: 0 8px 6px -8px black;
-	   -moz-box-shadow: 0 8px 6px -8px black;
-	        box-shadow: 0 8px 6px -8px black;
-
-	
+	-moz-box-shadow: 0 8px 6px -8px black;
+	box-shadow: 0 8px 6px -8px black;
 }
 
-
-
-.bannertextDiv{
-	
+.bannertextDiv {
 	width: 600px;
 	left: 0px;
 	top: 0px;
 	height: 140px;
 	position: absolute;
-	
-	
-	
 }
 
-.bannerlistdiv{
+.bannerlistdiv {
 	position: absolute;
 	width: 150px;
 	height: 130px;
-	left:520px;
-	top: 12px; 
+	left: 520px;
+	top: 12px;
 	/*border: solid 1px white;*/
-	
 }
 
-.bannerTagdiv{
+.bannerTagdiv {
 	position: absolute;
 	width: 100px;
 	height: 30px;
-	left:60px;
-	top: 30px; 
+	left: 60px;
+	top: 30px;
 	/*border: solid 1px white;*/
-	
 }
 
-.bannerListText{
-	
-font:18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;	
-color: black;
-}
-.bannerTagText{
-	
-font:18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;	
-color: white;
+.bannerListText {
+	font: 18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	color: black;
 }
 
+.bannerTagText {
+	font: 18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	color: white;
+}
 
 .menuDiv {
 	width: auto;
 	height: 41px;
 	position: absolute;
-	top:160px;
+	top: 160px;
 	left: 0px;
 	right: 0px;
-	cursor:pointer;
-/*background-color:#a70c00;#d9d3a2*/
- 
-/*rgba(92,144,208,1);*/
-
-
- 
+	cursor: pointer;
+	/*background-color:#a70c00;#d9d3a2*/
+	/*rgba(92,144,208,1);*/
 	/*border-bottom:solid 1px #191970;*/
 	-webkit-box-shadow: 0 8px 6px -8px black;
-	   -moz-box-shadow: 0 8px 6px -8px black;
-	        box-shadow: 0 8px 6px -8px black;
-
-	
+	-moz-box-shadow: 0 8px 6px -8px black;
+	box-shadow: 0 8px 6px -8px black;
 }
-
 
 .menuTabDiv {
 	width: 15%;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	    border-right:solid 1px black;
-	background-repeat:no-repeat;	
+	border-right: solid 1px black;
+	background-repeat: no-repeat;
 }
 
 .menuTabDivOne {
 	width: 75px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
-	
-	}
+	border-right: solid 1px black;
+	background-color: #93b5e8;
+}
 
 .menuTabDivTwo {
 	width: 120px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
 
 .menuTabDivThree {
 	width: 100px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
+
 .menuTabDivFour {
 	width: 100px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
+
 .menuTabDivFive {
 	width: 174px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
 
 .menuTabDivSix {
 	width: 100px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
+
 .menuTabDivSeven {
 	width: 120px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
+
 .menuTabDivEight {
 	width: 102px;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
-	border-right:solid 1px black;
-	background-color:#93b5e8;
-	
+	border-right: solid 1px black;
+	background-color: #93b5e8;
 }
-
-
-
 
 .menuTextDiv {
 	height: 60%;
 	width: 60%;
 	position: absolute;
-	color:black ;
-	top:30%;
+	color: black;
+	top: 30%;
 	left: 20%;
 	text-align: center;
-	cursor:pointer;
-	 
-	
-	background-repeat:no-repeat;
-	font:16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;	
-	
-
-	
+	cursor: pointer;
+	background-repeat: no-repeat;
+	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 }
 /*on mouser over color#626262 #e25d8c*/
 .menuTextDivTwo {
@@ -244,42 +201,56 @@ color: white;
 	width: 60%;
 	position: absolute;
 	color: black;
-	top:30%;
+	top: 30%;
 	left: 15%;
 	text-align: center;
-	
-	
-	background-repeat:no-repeat;
-	font:16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;	
-	
-
-	
+	background-repeat: no-repeat;
+	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 }
+
 .menuTextDivFive {
 	height: 60%;
 	width: 60%;
 	position: absolute;
 	color: black;
-	top:28%;
+	top: 28%;
 	left: 15%;
 	text-align: center;
-	
-	
-	background-repeat:no-repeat;
-	font:17px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;	
-	
+	background-repeat: no-repeat;
+	font: 17px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+}
 
+.contentHeader {
+	width: inherit;
+	position: absolute;
+	height: 60px;
+	top: 205px;
+	left: 0px;
+	border-bottom: solid 1px black;
+}
+.contentHeaderText{
+	position: absolute;
+	left:50px;
+	top: 20px;
+	font: 25px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	
 }
 
-
-.contentHeader{
-	width: 900px;
+.content {
+	width: 600px;
+	height:inherit;
 	position: absolute;
-	height: 60px;
-	top: 210px;
-	left: 0px;
-	border-bottom: solid 1px black;
+
+	top: 285px;
+	left: 130px;
+	/*border: solid 1px black;*/
+	text-align: justify;
+}
+
+.contentText{
+	
+	font: 14px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	
 }
 /*
 .bannertext{
@@ -293,64 +264,43 @@ color: white;
 	
 	
 }*/
-
-
-
-
-
 .menuPaddingDiv {
 	width: 15%;
-	height:40px;
+	height: 40px;
 	position: relative;
-	float:left;
-	top:0px;
+	float: left;
+	top: 0px;
 	left: 0px;
 	background-repeat: no-repeat;
-	
-
-	
 }
-
 
 .headerDiv {
 	width: 100%;
-	height:30px;
+	height: 30px;
 	position: absolute;
-	top:0px;
+	top: 0px;
 	left: 0px;
-	
-	background-color:black ;
-	
-	
-
-	
+	background-color: black;
 }
 
 .footerDiv {
 	width: inherit;
-	height:30px;
-	
+	height: 30px;
 	position: absolute;
 	bottom: 0px;
 	background-color: #440516;
-	
-	
-
-	
 }
 
 .feedbackDiv {
 	width: 40px;
-	
 	position: absolute;
-	top:40%;
+	top: 40%;
 	left: 0px;
 	padding: 17px 0;
 	text-align: center;
 	background: #191970;
-	
-}
-.label{
-	color: white;
 }
 
+.label {
+	color: white;
+}
