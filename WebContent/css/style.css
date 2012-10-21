@@ -193,7 +193,8 @@
 	text-align: center;
 	cursor: pointer;
 	background-repeat: no-repeat;
-	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;*/
+	/*font:Helvetica;*/
 }
 /*on mouser over color#626262 #e25d8c*/
 .menuTextDivTwo {
@@ -208,6 +209,7 @@
 	
 	background-repeat: no-repeat;
 	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	/*font: Helvetica;*/
 }
 
 .menuTextDivFive {
