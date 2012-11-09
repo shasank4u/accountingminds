@@ -1,0 +1,14 @@
+.contentBox {
+
+	width: 250px;
+	height:200px;	
+position:absolute;
+margin: 0 auto;
+	top:90px;
+	left: 380px;
+	/*border: solid 1px black;*/
+	text-align: justify;
+	z-index: 1;
+	/*background-color: blue;*/
+	
+}

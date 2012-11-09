@@ -3,32 +3,93 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-<title>Accounting Minds</title>
+<title >AccountingMinds</title>
+
+<link rel="stylesheet" href="css/jquery.ui.tabs.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/jquery.ui.core.css" type="text/css" media="all" />
+
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/humanity/jquery.ui.theme.css " type="text/css" media="all" />
 
 <style type="text/css">
+
+/*
+.menuDiv {
+ width:400px;
+background:#c2c2c2 none; padding:5px;
+}*/
+.ui-widget-content { border: none;  }
+.ui-widget-header { background-color:none;   }
+
+
+
+/*
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/humanity/jquery.ui.theme.css " type="text/css" media="all" />
+
+
+.ui-tabs .ui-tabs-panel {
+	background-color: brown; /* <------------------------ background of tab content area */
+/*	border: 1px solid #38402D; /* <------------------------ border of tab content area */
+	/*position: relative;
+	min-height: 200px;
+	height: auto !important;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 20px;	
+	<img src="images/logo6.jpg" height="139" width="500">
+	
+ ui-tabs-hide //  for hiding the tab 
+}
+*/					
+
+/*
+.menuDiv.ui-tabs .ui-tabs-nav {
+   background-color:black;
+ 
+}*/
+.menuDiv.ui-widget {
+font: 16px/1.1em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+} 
+.ui-tabs .ui-tabs-panel{
+	min-height: 500px;
+
+
+}
 </style>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+   <script src="js/script.js"></script>
 
-<script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript">
-
+$(function($) {
+	
+	 // $('#menu').tabs();
+	   //alert($('#tab1').attr('class'));
+	   
+	   
+	});
 
 </script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/homepage.css" />
+
 </head>
 <body>
 	<div class="wrapper">
 
 		<div id="main" class="mainDiv">
-			<div id="banner" class="bannerDiv">
+			<div id="banner" class=" ui-widget-content
+			bannerDiv">
 				
 				
-				<div class="bannertextDiv">
-					<img src="images/logo6.jpg" height="139" width="500">
+				<div class="bannertextDiv  " >
+				AccountingMinds
 				</div>
-				<div id="bannelist" class="bannerlistdiv">
+				<div id="bannelist" class="bannerlistdiv  ">
 					<UL class="bannerListText">
 						<LI>CWA</LI>
 						<LI>CA</LI>
@@ -37,50 +98,43 @@
 
 				</div>
 				
+				<div class="phonepicDive">
+				<img  src="images/phonePic.png" height="30px" width="30px">
+				</div>
+				
+				<div class="phoneNoDive">
+				0990085070
+				</div>
+				
 			</div>
-			<div id="menu" class="menuDiv">
+			<div id="menu" class="menuDiv ui-tabs ui-widget ui-widget-content ui-corner-all">
 
 
 
-				<div id="menuTabOne" class="menuTabDivOne" >
-
-					
-					<label class="menuTextDiv"> Home</label>
-					
-
-				</div>
-
-				<div id="menuTabTwo" class="menuTabDivTwo">
-					<label class="menuTextDivTwo">Program</label>
-
-				</div>
-				<div id="menuTabThree" class="menuTabDivThree">
-
-					<label class="menuTextDiv">About us</label>
-
-
-				</div>
-				<div id="menuTabFour" class="menuTabDivFour">
-					<label class="menuTextDiv">Vision</label>
-				</div>
-				<div id="menuTabFive" class="menuTabDivFive">
-					<label class="menuTextDivFive">Announcements</label>
-				</div>
-				<div id="menuTabSix" class="menuTabDivSix">
-					<label class="menuTextDiv">FAQ</label>
-				</div>
-				<div id="menuTabSeven" class="menuTabDivSeven">
-					<label class="menuTextDiv">Contact us</label>
-				</div>
-				<div id="menuTabEight" class="menuTabDivEight">
-					<label class="menuTextDiv">Blog</label>
-				</div>
-
+			<ul  id="test2" class='myTabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all menuText'>
+			
+			 <li id="listTabOne" class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a id="menuTabOne">Home</a></li>
+			 <li id="listTabTwo" class="ui-state-default ui-corner-top"><a id="menuTabTwo">Program</a></li>
+			
+			<li id="listTabThree" class="ui-state-default ui-corner-top"><a id="menuTabThree" >Annoucements</a></li>
+			 <li id="listTabFour" class="ui-state-default ui-corner-top"><a id="menuTabFour">About us</a></li> 
+			<li id="listTabFive" class="ui-state-default ui-corner-top "><a id="menuTabFive">Vision</a></li>
+			 <li id="listTabSix"  class="ui-state-default ui-corner-top"><a id="menuTabSix">Contact us</a></li>
+			 <li id="listTabSeven" class="ui-state-default ui-corner-top"><a id="menuTabSeven">FAQ</a></li>
+			 <li id="listTabEight" class="ui-state-default ui-corner-top"><a id="menuTabEight">Blog</a></li>
+			 
+			</ul>
+			
+			<div id="tabPanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom ">
+			
+		
+			
+			</div>
 
 
 			</div>
 			
-			<div id="contentHeaderDiv" class ="contentHeader">
+		<!--  	<div id="contentHeaderDiv" class ="contentHeader">
 			
 			<label  class="contentHeaderText">All About Accounting</label>
 			
@@ -93,6 +147,7 @@
 			</label>
 			
 			</div>
+			-->
 			
 		</div>
 

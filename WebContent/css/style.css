@@ -1,3 +1,6 @@
+
+
+
 .wrapper {
 	width: 900px;
 	margin: 0 auto;
@@ -10,45 +13,71 @@
 	top: 0px;
 	bottom: 30px;
 	/*background-image: url("../images/bg.jpeg");*/
-	background-color: #eef5ff;
+	/*background-color: #eef5ff;
+	
 	border-right: solid 1px black;
-	border-left: solid 1px black;
+	border-left: solid 1px black;*/
 	-moz-box-shadow: inset 5px 0 5px -5px black, inset -5px 0 5px -5px black;
 	-webkit-box-shadow: inset 5px 0 5px -5px black, inset -5px 0 5px -5px black;
 }
 
 .bannerDiv {
 	width: auto;
-	height: 160px;
+	height: 120px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: white;
-	/*#880245 #440516;     
-	border-bottom: solid 1px #191970;*/
+	/*background-color: white;
+	#880245 #440516;    
+	border-top: solid 1px #191970; */
 	-webkit-box-shadow: 0 8px 6px -8px black;
 	-moz-box-shadow: 0 8px 6px -8px black;
 	box-shadow: 0 8px 6px -8px black;
 }
 
+.phonepicDive{
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:40px;
+	left:630px;
+	/*border: solid 1px #191970;
+	background-image: url(../images/phonePic.png);*/
+}
+
+
+.phoneNoDive{
+	position:absolute;
+	width:110px;
+	height:40px;
+	top:34px;
+	left:670px;
+	/*border: solid 1px #191970;*/
+		font: 28px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	
+	/*background-image: url(../images/phonePic.png);*/
+}
+
 .bannertextDiv {
 	width: 600px;
-	left: 0px;
-	top: 0px;
+	left: 200px;
+	top: 28px;
 	height: 140px;
 	position: absolute;
+		font: 40px/1.4em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	
 }
 
 .bannerlistdiv {
 	position: absolute;
 	width: 150px;
-	height: 130px;
+	height: 100px;
 	left: 520px;
-	top: 12px;
-	/*border: solid 1px white;*/
+	top: -10px;
+	/*border: solid 1px black;*/
 }
-
+/*
 .bannerTagdiv {
 	position: absolute;
 	width: 100px;
@@ -56,7 +85,7 @@
 	left: 60px;
 	top: 30px;
 	/*border: solid 1px white;*/
-}
+/*}*/
 
 .bannerListText {
 	font: 18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
@@ -70,243 +99,52 @@
 
 .menuDiv {
 	width: auto;
-	height: 41px;
+	height: auto;
 	position: absolute;
-	top: 160px;
+	top: 120px;
 	left: 0px;
 	right: 0px;
-	cursor: pointer;
+	
 	/*background-color:#a70c00;#d9d3a2*/
 	/*rgba(92,144,208,1);*/
-	/*border-bottom:solid 1px #191970;*/
+	/*border-bottom:solid 1px #191970;
 	-webkit-box-shadow: 0 8px 6px -8px black;
 	-moz-box-shadow: 0 8px 6px -8px black;
-	box-shadow: 0 8px 6px -8px black;
+	box-shadow: 0 8px 6px -8px black;8*/
 }
 
-.menuTabDiv {
-	width: 15%;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-repeat: no-repeat;
-}
 
-.menuTabDivOne {
-	width: 75px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivTwo {
-	width: 120px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivThree {
-	width: 100px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivFour {
-	width: 100px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivFive {
-	width: 174px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivSix {
-	width: 100px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivSeven {
-	width: 120px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTabDivEight {
-	width: 102px;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	border-right: solid 1px black;
-	background-color: #93b5e8;
-}
-
-.menuTextDiv {
-	height: 60%;
-	width: 60%;
-	position: absolute;
-	color: black;
-	top: 30%;
-	left: 20%;
-	text-align: center;
-	cursor: pointer;
-	background-repeat: no-repeat;
-	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;*/
-	/*font:Helvetica;*/
-}
-/*on mouser over color#626262 #e25d8c*/
-.menuTextDivTwo {
-	height: 60%;
-	width: 60%;
-	position: absolute;
-	color: black;
-	top: 30%;
-	left: 15%;
-	text-align: center;
-		cursor: pointer;
+.menuText{
+	font: 15px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	
-	background-repeat: no-repeat;
-	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
-	/*font: Helvetica;*/
 }
-
-.menuTextDivFive {
-	height: 60%;
-	width: 60%;
-	position: absolute;
-	color: black;
-	top: 28%;
-	left: 15%;
-	text-align: center;
-		cursor: pointer;
-	
-	background-repeat: no-repeat;
-	font: 17px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
-}
-
 .contentHeader {
-	width: inherit;
-	position: absolute;
-	height: 60px;
-	top: 205px;
+	
+	
+	height: 40px;
+	
 	left: 0px;
 	border-bottom: solid 1px black;
 }
 .contentHeaderText{
-	position: absolute;
-	left:50px;
-	top: 20px;
+	
 	font: 25px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	
 }
 
 .content {
-	width: 600px;
-	height:inherit;
-	position: absolute;
 
-	top: 285px;
-	left: 130px;
-	/*border: solid 1px black;*/
+	width: 80%;	
+position:relative;
+margin: 0 auto;
+	top:20px;
+	/*left: 130px;
+	border: solid 1px black;*/
 	text-align: justify;
 }
 
 .contentText{
-	
-	font: 14px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+	font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	
 }
-/*
-.bannertext{
-	
-	
-
-	color: white;
-	
-	font:50px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
-	font-weight: 200;
-	
-	
-}*/
-.menuPaddingDiv {
-	width: 15%;
-	height: 40px;
-	position: relative;
-	float: left;
-	top: 0px;
-	left: 0px;
-	background-repeat: no-repeat;
-}
-
-.headerDiv {
-	width: 100%;
-	height: 30px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background-color: black;
-}
-
-.footerDiv {
-	width: inherit;
-	height: 30px;
-	position: absolute;
-	bottom: 0px;
-	background-color: #440516;
-}
-
-.feedbackDiv {
-	width: 40px;
-	position: absolute;
-	top: 40%;
-	left: 0px;
-	padding: 17px 0;
-	text-align: center;
-	background: #191970;
-}
-
-.label {
-	color: white;
-}
+/*widget bacground color #ede4d4*/
