@@ -45,8 +45,10 @@ $('#menuTabOne').click(function(){
 	//$('#tabPanel').load("pages/home.html");
 
 	$('#listTabOne').addClass("ui-tabs-selected ui-state-active");
+	
+	$('#tabPanel').load("pages/home.html");
 
-	var tabData = {
+	/*var tabData = {
 			
 				"tabId":"1",
 				"tabName":"Home",
@@ -71,7 +73,7 @@ $('#menuTabOne').click(function(){
 		
 		 
 		}
-		});
+		});/*
 	
 	
 	
@@ -99,7 +101,7 @@ function resetDefaultCssForAll(){
 }
 
 function setMinHeight(){
-	alert($('#tabPanel').css('min-height'));
+	$('.ui-tabs .ui-tabs-panel').css('min-height','600px');
 }
 
 
@@ -111,6 +113,8 @@ $('#menuTabFive').click(function(){
 	$('#menuTabFive').addClass('ui-corner-top');
 	$('#menuTabFive').addClass('ui-state-default');
 */
+	$('#tabPanel').load("pages/vision.html");
+	/*
 	var tabData = {
 			
 				"tabId":"4",
@@ -151,6 +155,22 @@ $('#menuTabFive').click(function(){
 	
 	});
 
+
+
+
+$('#menuTabTwo').click(function(){
+	resetDefaultCssForAll();
+	setMinHeight();
+	$('#tabPanel').load("pages/program.html");
+
+
+	
+	$('#listTabTwo').addClass("ui-tabs-selected ui-state-active");
+
+	
+	
+	
+	});
 
 });
 
