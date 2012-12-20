@@ -172,5 +172,19 @@ $('#menuTabTwo').click(function(){
 	
 	});
 
+$('#menuTabTwo').click(function(){
+	resetDefaultCssForAll();
+	setMinHeight();
+	$('#tabPanel').load("pages/program.html");
+
+
+	
+	$('#listTabTwo').addClass("ui-tabs-selected ui-state-active");
+
+	
+	
+	
+	});
+
 });
 
