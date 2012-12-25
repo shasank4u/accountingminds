@@ -73,7 +73,10 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=225, Colo
 	
 	
 }
-
+.image{
+		background: url("../images/background5.jpg");
+	
+}
 /*
 list {
 	

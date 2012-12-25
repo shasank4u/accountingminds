@@ -9,14 +9,46 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
 <link rel="stylesheet" type="text/css" href="../css/program.css" />
 
-<link rel="stylesheet" type="text/css" href="../js/program.js" />
 
 
 <script type="text/javascript">
-var JTable = function() {};
-$('#jtable').each(function() {
-	  $("td", this).addClass("ui-state-active");
-	});
+$(document).ready(function(){
+	$( "#radio" ).buttonset();
+	$('#jtableThree').addClass("hide");
+	$('#jtableFour').addClass("hide");
+$('#radio2').click(function(){
+	
+	$('#jtableOne').addClass("hide");
+	$('#jtableTwo').addClass("hide");
+	$('#jtableOne').removeClass("show");
+	$('#jtableTwo').removeClass("show");
+	$('#tableHeaderOne').addClass("hide");
+	$('#tableHeaderTwo').addClass("hide");
+	$('#tableHeaderOne').removeClass("show");
+	$('#tableHeaderTwo').removeClass("show");
+	$('#contentHeaderOptionTwo').addClass("ui-tabs-selected ui-state-active");
+	$('#contentHeaderOptionOne').removeClass("ui-tabs-selected ui-state-active");
+	$('#jtableThree').addClass("show");
+	$('#jtableFour').addClass("show");
+	
+
+});
+
+$('#radio1').click(function(){
+	
+	
+	$('#jtableThree').removeClass("show");
+	$('#jtableFour').removeClass("show");
+	$('#tableHeaderOne').addClass("show");
+	$('#tableHeaderTwo').addClass("show");
+	$('#contentHeaderOptionTwo').removeClass("ui-tabs-selected ui-state-active");
+	$('#contentHeaderOptionOne').addClass("ui-tabs-selected ui-state-active");
+	$('#jtableOne').addClass("show");
+	$('#jtableTwo').addClass("show");
+	
+
+});
+});
 
 
 </script>
@@ -24,17 +56,33 @@ $('#jtable').each(function() {
 <body>
 	<div class="contentHeader">
 
-		<label class="contentHeaderText">Program</label>
+		<label class="contentHeaderText ">Program</label>
+	<div class="contentHeaderOption ">
+	<!-- 
+	<div class="contentHeaderOptionOne ui-state-default ui-corner-all ui-tabs-selected ui-state-active" id="contentHeaderOptionOne">
+	<a class="subContentText" id="subMenuOne" style="padding: 10px;" >Weekend Program</a></div>
+	<div class="contentHeaderOptionTwo ui-state-default ui-corner-all" id="contentHeaderOptionTwo" >
+	<a  class="subContentText"  id="subMenuTwo" style="padding: 10px;">Regular Program</a></div>
+	 -->
+	<div id="radio">
+        <input type="radio" id="radio1" name="radio" checked="checked"/><label class="subContentText" for="radio1">Weekend Program</label>
+        <input type="radio" id="radio2" name="radio" /><label class="subContentText" for="radio2">Regular Program</label>
+       
+    </div>
+	
+	</div>
 
 
 	</div>
+	<div class="tableHeaderOne" id="tableHeaderOne"><label>Saturday Schedule :</label></div>
 
 	<div class="contentProgramPage">
 
 
-		<table class="jtable" id=".jtable" align="center" >
+
+		<table class="jtable" id="jtableOne" align="center" style="" >
 			<thead style=" ">
-				<tr  class="ui-state-default" align="center" style=" height: 20px;" >
+				<tr  class=" image" align="center" style=" height: 20px;" >
 					<th  style=" font-weight:normal;" >  Group 1  </th>
 					<th style=" font-weight:normal; width: 120px;" >Study Timings</th>
 					<th style=" font-weight:normal; width: 120px;" >No of Study Weeks</th>
@@ -93,16 +141,87 @@ $('#jtable').each(function() {
 				</tr> -->
 			</tbody>
 		</table>
+		
+			<table class="hide" id="jtableThree" align="center" >
+			<thead style=" ">
+				<tr  class=image align="center" style=" height: 20px;" >
+					<th  style=" font-weight:normal;" >  Group 1  </th>
+					<th style=" font-weight:normal; width: 120px;" >Study Timings</th>
+					<th style=" font-weight:normal; width: 120px;" >Study Days</th>
+					<th style=" font-weight:normal; width: 120px;" >No of Study Weeks</th>
+					<th style=" font-weight:normal; width: 120px;" >Study Hours</th>
+					
+					
+					<th style=" font-weight:normal; width: 140px;" >Practice and Tests</th>
+					<th style=" font-weight:normal; width: 140px;" >Total Study Hours</th>
+					
+				</tr>
+			</thead>
+			
+			<tbody >
+				<tr class ="ui-widget-content" align="center" style="color:black; height: 20px;">
+					<td >Accounts</td>
+					<td >07.00 - 09.00</td>
+					<td>Tue,Wed,Thu</td>
+					<td >10</td>
+					<td >60</td>
+					<td >30</td>
+					<td >90</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black;">
+					<td >DT</td>
+					<td >07.00 - 09.00</td>
+					<td>Tue,Wed,Thu</td>
+					<td >10</td>
+					<td >60</td>
+					<td >30</td>
+					<td >90</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black;height:25px">
+					<td >Laws and Auditing</td>
+					<td >07.00 - 09.00</td>
+					<td>Mon,Fri</td>
+					<td >20</td>
+					<td >40</td>
+					<td >12</td>
+					<td >52</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black; height:25px ">
+					<td style="width: 140px;" >Practice Hours</td>
+					<td >09.30 - 11.30</td>
+					<td >Tue,Wed,Thu</td>
+					<td >12</td>
+					<td >72</td>
+					<td ></td>
+					<td></td>
+				</tr>
+				<!-- <tr class ="ui-widget-content" align="center" style="color:black;">
+					<td >Total</td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					
+				</tr> -->
+			</tbody>
+		</table>
+		
+		
 
 	</div>
+		<div class="tableHeaderTwo" id="tableHeaderTwo"><label>Sunday Schedule :</label></div>
 	
 	<div class="contentProgramTable2">
 
 
-		<table class="jtable" id=".jtable" align="center" >
+		<table class="" id="jtableTwo" align="center" >
 			<thead style=" ">
-				<tr  class="ui-state-default" align="center" style=" height: 20px;" >
-					<th  style=" font-weight:normal;" >  Group 1  </th>
+				<tr  class="image" align="center" style=" height: 20px;" >
+					<th  style=" font-weight:normal;" >  Group 2  </th>
 					<th style=" font-weight:normal; width: 120px;" >Study Timings</th>
 					<th style=" font-weight:normal; width: 120px;" >No of Study Weeks</th>
 					<th style=" font-weight:normal; width: 120px;" >Study Hours</th>
@@ -114,7 +233,7 @@ $('#jtable').each(function() {
 			
 			<tbody >
 				<tr class ="ui-widget-content" align="center" style="color:black; height: 20px;">
-					<td >Accounts</td>
+					<td >Costing</td>
 					<td >07.30 - 10.30</td>
 					<td >20</td>
 					<td >60</td>
@@ -123,7 +242,7 @@ $('#jtable').each(function() {
 					
 				</tr>
 				<tr class ="ui-widget-content" align="center" style="color:black;">
-					<td >DT</td>
+					<td >IDT</td>
 					<td >11.00 - 01.30</td>
 					<td >16</td>
 					<td >48</td>
@@ -132,7 +251,7 @@ $('#jtable').each(function() {
 					
 				</tr>
 				<tr class ="ui-widget-content" align="center" style="color:black;height:25px">
-					<td >Laws and Auditing</td>
+					<td >OM & IS</td>
 					<td >11.00 - 1.30</td>
 					<td >10</td>
 					<td >30</td>
@@ -147,6 +266,76 @@ $('#jtable').each(function() {
 					<td ></td>
 					<td ></td>
 					<td ></td>
+					
+				</tr>
+				<!-- <tr class ="ui-widget-content" align="center" style="color:black;">
+					<td >Total</td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					
+				</tr> -->
+			</tbody>
+		</table>
+		
+		
+		<table class="hide" id="jtableFour" align="center" >
+			<thead style=" ">
+				<tr  class="image" align="center" style=" height: 20px;" >
+					<th  style=" font-weight:normal;" >  Group 2  </th>
+					<th style=" font-weight:normal; width: 120px;" >Study Timings</th>
+					<th style=" font-weight:normal; width: 120px;" >Study Days</th>
+					<th style=" font-weight:normal; width: 120px;" >No of Study Weeks</th>
+					<th style=" font-weight:normal; width: 120px;" >Study Hours</th>
+					
+					
+					<th style=" font-weight:normal; width: 140px;" >Practice and Tests</th>
+					<th style=" font-weight:normal; width: 140px;" >Total Study Hours</th>
+					
+				</tr>
+			</thead>
+			
+			<tbody >
+				<tr class ="ui-widget-content" align="center" style="color:black; height: 20px;">
+					<td >Costing</td>
+					<td >07.00 - 09.00</td>
+					<td>Tue,Wed,Thu</td>
+					<td >10</td>
+					<td >60</td>
+					<td >30</td>
+					<td >90</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black;">
+					<td >IDT</td>
+					<td >07.00 - 09.00</td>
+					<td>Tue,Wed,Thu</td>
+					<td >10</td>
+					<td >60</td>
+					<td >30</td>
+					<td >90</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black;height:25px">
+					<td >OM & IS</td>
+					<td >07.00 - 09.00</td>
+					<td>Mon,Fri</td>
+					<td >20</td>
+					<td >40</td>
+					<td >12</td>
+					<td >52</td>
+					
+				</tr>
+				<tr class ="ui-widget-content" align="center" style="color:black; height:25px ">
+					<td style="width: 140px;" >Practice Hours</td>
+					<td >09.30 - 11.30</td>
+					<td >Tue,Wed,Thu</td>
+					<td >12</td>
+					<td >72</td>
+					<td ></td>
+					<td></td>
 					
 				</tr>
 				<!-- <tr class ="ui-widget-content" align="center" style="color:black;">

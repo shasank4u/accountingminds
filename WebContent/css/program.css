@@ -16,9 +16,73 @@ margin: 0 auto;
 	width: 100%;	
 position:relative;
 margin: 0 auto;
-	top:160px;
+	top:140px;
 	/*left: 130px;
 	border: solid 1px black;*/
 	text-align: justify;
 	
+}
+
+.contentHeaderOption {
+	position:absolute;
+	
+	top: 65px;
+	
+	left: 230px;
+	height:15px;
+	width:500px;
+	
+}
+
+.contentHeaderOptionOne {
+	position:absolute;
+	
+	bottom: 1px;
+	
+	left: 1px;
+	height:24px;
+	width:140px;
+	cursor: pointer;
+}
+
+.contentHeaderOptionTwo {
+	position:absolute;
+	
+	bottom: 1px;
+	
+	left: 145px;
+	height:24px;
+	width:125px;
+	cursor: pointer;
+}
+.subContentText{
+	font: 15px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.tableHeaderOne{
+	position: relative;
+	top:50px;
+	left:25px;
+	width:140px;
+	height:25px;
+	padding-top:10px;
+	font-weight:600;
+	
+}
+
+.tableHeaderTwo{
+	position: relative;
+	top:120px;
+	left:25px;
+	width:140px;
+	height:25px;
+	padding-top:10px;
+	font-weight:600;
+	
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
 }

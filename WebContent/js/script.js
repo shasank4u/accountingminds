@@ -161,9 +161,11 @@ $('#menuTabFive').click(function(){
 $('#menuTabTwo').click(function(){
 	resetDefaultCssForAll();
 	setMinHeight();
+	$.getScript("js/program.js");
+	
 	$('#tabPanel').load("pages/program.html");
 
-
+	
 	
 	$('#listTabTwo').addClass("ui-tabs-selected ui-state-active");
 
@@ -172,19 +174,21 @@ $('#menuTabTwo').click(function(){
 	
 	});
 
-$('#menuTabTwo').click(function(){
+$('#menuTabSeven').click(function(){
 	resetDefaultCssForAll();
 	setMinHeight();
-	$('#tabPanel').load("pages/program.html");
+	$('#tabPanel').load("pages/FAQ.html");
 
 
 	
-	$('#listTabTwo').addClass("ui-tabs-selected ui-state-active");
+	$('#listTabSeven').addClass("ui-tabs-selected ui-state-active");
 
 	
 	
 	
 	});
+
+
 
 });
 
