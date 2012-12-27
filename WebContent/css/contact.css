@@ -1,0 +1,16 @@
+.contactDiv {
+	position:absolute;
+	
+	top: 30px;
+	
+	left: 0px;
+	height:80px;
+	width:100%;
+	-moz-box-shadow: 0 0 5px 5px #ede4d4;
+-webkit-box-shadow: 0 0 5px 5px #ede4d4;
+box-shadow: 0 0 5px 5px #ede4d4;
+	
+}
+
+
+

@@ -188,6 +188,19 @@ $('#menuTabSeven').click(function(){
 	
 	});
 
+$('#menuTabSix').click(function(){
+	resetDefaultCssForAll();
+	setMinHeight();
+	$('#tabPanel').load("pages/contact.html");
+
+
+	
+	$('#listTabSix').addClass("ui-tabs-selected ui-state-active");
+
+	
+	
+	
+	});
 
 
 });

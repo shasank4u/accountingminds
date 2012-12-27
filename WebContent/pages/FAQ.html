@@ -11,7 +11,15 @@
 		
 		$(function() {
 
-			 $( "#accordion" ).accordion();
+			 $( "#accordion" ).accordion({
+		            heightStyle: "content"
+		        });
+			//getter
+			 var autoHeight = $( ".selector" ).accordion( "option", "autoHeight" );
+			 //setter
+			 $( ".selector" ).accordion( "option", "autoHeight", false );
+			 
+			 
 			/*var attrs = document.getElementById('firstHeader').attributes;
 			for ( var i = 0; i < attrs.length; i++) {
 				alert(attrs[i].nodeName + " => " + attrs[i].nodeValue);
@@ -43,9 +51,24 @@
 			<div >
 				<p>The Institute of Cost Accountants of India (Previously Known as The Institute of Cost and Works Accountants of India) was established by a special act of Parliament, namely, the Cost and Works Accountants Act, 1959 as a statutory professional body for the regulation of the profession of cost and management accountancy.</p>
 			</div>
-			<h3 >What is the course structure?</h3>
+	
+		<h3>	What is the course structure?</h3>
 			<div >
-				<p></p>
+				<p>The course is structured in 3 levels of competency
+				<ul>
+				<li><h4>Foundation Course: LEVEL-A</h4></li> 
+				<p>Eligibility for Admission: 17 years of age and Passed Senior Secondary Examination under 10+2 scheme of a recognized Board( Incumbents waiting for the result can apply for provisional admission)</p>
+				
+				<li><h4>Intermediate Course: LEVEL-B</h4></li> 
+				<p>Eligibility for Admission: 18 years of age and passed degree Examination of any recognized University or equivalent( Incumbents waiting for the result can apply for provisional admission)</p>
+				
+				<li><h4>Final Course: LEVEL-C</h4></li> 
+				<p>Eligibility for Admission: Passed Intermediate Exam of ICWAI</p>
+				
+				</ul>
+				
+				
+				</p>
 			</div>
 			<h3 >How do I Join ICWAI Course?</h3>
 			<div >
