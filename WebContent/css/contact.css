@@ -4,7 +4,7 @@
 	top: 50px;
 	
 	left: 0px;
-	height:80px;
+	height:30px;
 	width:100%;
 	text-align:center;
 	padding-left:20px;
@@ -28,7 +28,7 @@ box-shadow: 0 0 3px 3px #ede4d4;
 .emailLabel {
 	position:absolute;
 	
-	top: 170px;
+	top: 130px;
 	
 	left: 0px;
 	height:20px;
@@ -38,9 +38,9 @@ box-shadow: 0 0 3px 3px #ede4d4;
 .emailDiv {
 	position:absolute;
 	
-	top: 200px;
+	top: 160px;
 left: 0px;
-	height:40px;
+	height:30px;
 	width:100%;
 	text-align:left;
 	padding-left:20px;
@@ -53,7 +53,7 @@ box-shadow: 0 0 3px 3px #ede4d4;
 .personlable {
 	position:absolute;
 	
-	top: 290px;
+	top: 250px;
 	
 	left: 0px;
 	height:20px;
@@ -62,10 +62,10 @@ box-shadow: 0 0 3px 3px #ede4d4;
 .personDiv {
 	position:absolute;
 	
-	top: 320px;
+	top: 280px;
 	
 	left: 0px;
-	height:40px;
+	height:30px;
 	width:100%;
 	text-align:left;
 	padding-left:20px;
@@ -76,7 +76,7 @@ box-shadow: 0 0 3px 3px #ede4d4;
 }
 
 .header{
-font:20px/1.7em "pt-sans";
+font:16px/1.7em "pt-sans";
 }
 
 
