@@ -4,7 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
+<style type="text/css">
+.text{
+font:14px "pt-sans";
+}
 
+</style>
 </head>
 <body>
 	<script type="text/javascript">
@@ -14,24 +19,11 @@
 			 $( "#accordion" ).accordion({
 		            heightStyle: "content"
 		        });
-			//getter
-			 var autoHeight = $( ".selector" ).accordion( "option", "autoHeight" );
-			 //setter
-			 $( ".selector" ).accordion( "option", "autoHeight", false );
-			 
-			 
-			/*var attrs = document.getElementById('firstHeader').attributes;
-			for ( var i = 0; i < attrs.length; i++) {
-				alert(attrs[i].nodeName + " => " + attrs[i].nodeValue);
-			}*/
-			//alert($( "#secondContent" ).attr('class'));
-
+			
+			 $('#courseDiv').load('pages/FAQcourseStruct.html');
+			
 		});
-		/*
-		 var attrs =document.getElementById('firstHeader').attributes;
-		 alert(attrs);
-		 for(var i=0;i<attrs.length;i++) {
-		 alert(attrs[i].nodeName + " => " + attrs[i].nodeValue);*/
+		
 	</script>
 
 
@@ -48,12 +40,12 @@
 		<div id="accordion">
 
 			<h3 >What is ICWAI?</h3>
-			<div >
+			<div class="text">
 				<p>The Institute of Cost Accountants of India (Previously Known as The Institute of Cost and Works Accountants of India) was established by a special act of Parliament, namely, the Cost and Works Accountants Act, 1959 as a statutory professional body for the regulation of the profession of cost and management accountancy.</p>
 			</div>
 	
 		<h3>	What is the course structure?</h3>
-			<div >
+			<div class="text">
 				<p>The course is structured in 3 levels of competency
 				<ul>
 				<li><h4>Foundation Course: LEVEL-A</h4></li> 
@@ -71,27 +63,33 @@
 				</p>
 			</div>
 			<h3 >How do I Join ICWAI Course?</h3>
-			<div >
-				<p></p>
+			<div id="courseDiv"  class="text">
+				
 			</div>
 			<h3 >When to Apply?</h3>
-			<div >
-				<p></p>
+			<div class="text">
+				<p>Exams are held two times in a year i.e. on 11th to 18th June and on 10th to 17th December. 
+For June Term Examination apply before 30th November of previous year and for December Term Examination apply before 31st May.
+				</p>
 			</div>
 			<h3 >What is the duration of the Course? Or How many years its take to become a CWA or CMA? Is it difficult?</h3>
-			<div >
-				<p></p>
+			<div class="text">
+				<p>There is no fixed duration for the course. Since the course is structured in groups, students can appear for exams group wise and complete the course.  
+However, the number of times a student can appear for a group will be limited. 
+				</p>
 			</div>
 			<h3 >What is the Syllabus?</h3>
-			<div >
-				<p></p>
+			<div class="text" >
+				<p>The below link details the 2012 Syllabus
+				<br><a href="http://icwai.org/icwainew/docs/updates/Syllabus-2012-Content.pdf" style="color: blue">http://icwai.org/icwainew/docs/updates/Syllabus-2012-Content.pdf</a>
+				</p>
 			</div>
 			<h3 >What is the course fees?</h3>
-			<div >
+			<div class="text" >
 				<p></p>
 			</div>
 			<h3 >What are the Prospects after qualifying ICWAI exam?</h3>
-			<div >
+			<div  class="text">
 				<p></p>
 			</div>
 			<h3 >How is CWA/CMA course different From CA?</h3>
