@@ -111,11 +111,13 @@
 .bannerListText {
 	font: 18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	color: black;
+		-webkit-text-stroke: 0.4px;
 }
 
 .bannerTagText {
 	font: 18px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	color: white;
+		-webkit-text-stroke: 0.4px;
 }
 
 
@@ -151,7 +153,7 @@
 	border-bottom: solid 1px black;
 }
 .contentHeaderText{
-	
+		-webkit-text-stroke: 0.4px;
 	font: 25px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	
 }
@@ -170,11 +172,16 @@ margin: 0 auto;
 
 
 .contentText{
-	/*-webkit-text-stroke: 0.4px;*/
+	-webkit-text-stroke: 0.4px;
 	font: 16px/1.7em "pt-sans";
 	/*font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	font: 16px/1.7em  "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
 	
 	
+}
+
+.text{
+font:14px "pt-sans";
+	-webkit-text-stroke: 0.4px;
 }
 /*widget bacground color #ede4d4*/
