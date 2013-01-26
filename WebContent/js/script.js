@@ -45,7 +45,8 @@ $('#menuTabOne').click(function(){
 	//$('#tabPanel').load("pages/home.html");
 
 	$('#listTabOne').addClass("ui-tabs-selected ui-state-active");
-	
+	$('.ui-tabs-panel').css('min-height','500px');
+
 	$('#tabPanel').load("pages/home.html");
 
 	/*var tabData = {
@@ -162,6 +163,8 @@ $('#menuTabTwo').click(function(){
 	resetDefaultCssForAll();
 	setMinHeight();
 	$.getScript("js/program.js");
+	$('.ui-tabs-panel').css('min-height','700px');
+	
 	
 	$('#tabPanel').load("pages/program.html");
 
