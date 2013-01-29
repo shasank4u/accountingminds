@@ -173,7 +173,6 @@ margin: 0 auto;
 
 .contentText{
 	-webkit-text-stroke: 0.4px;
-	font: 16px/1.7em "pt-sans";
 	/*font: 16px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 	font: 16px/1.7em  "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
 	
@@ -181,7 +180,8 @@ margin: 0 auto;
 }
 
 .text{
-font:14px "pt-sans";
-	-webkit-text-stroke: 0.4px;
+font: 15px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
+
+-webkit-text-stroke: 0.4px;
 }
 /*widget bacground color #ede4d4*/
