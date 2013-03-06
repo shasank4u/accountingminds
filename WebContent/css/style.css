@@ -1,5 +1,5 @@
 
-@import url("../fonts/stylesheet.css");
+
 
 .wrapper {
 	width: 900px;
@@ -178,16 +178,10 @@ margin: 0 auto;
 	
 	
 }
-/*
+
 .text{
 font: 15px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
 
 -webkit-text-stroke: 0.4px;
-}*/
-/*widget bacground color #ede4d4*/
-
-
-.text{
-font: 15px/1.7em 'PTSansRegular', Arial, sans-serif;
--webkit-text-stroke: 0.4px;
 }
+/*widget bacground color #ede4d4*/
