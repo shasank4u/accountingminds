@@ -76,7 +76,11 @@ box-shadow: 0 0 3px 3px #ede4d4;
 }
 
 .header{
+<<<<<<< HEAD
 font:16px/1.7em "pt-sans";
+=======
+font:16px/1.7em 'PTSansRegular', Arial, sans-serif;
+>>>>>>> 5.4
 }
 
 
