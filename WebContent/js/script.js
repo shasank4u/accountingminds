@@ -163,7 +163,11 @@ $('#menuTabTwo').click(function(){
 	resetDefaultCssForAll();
 	setMinHeight();
 	$.getScript("js/program.js");
+<<<<<<< HEAD
 	$('.ui-tabs-panel').css('min-height','700px');
+=======
+	$('.ui-tabs-panel').css('min-height','800px');
+>>>>>>> 5.5
 	
 	
 	$('#tabPanel').load("pages/program.html");

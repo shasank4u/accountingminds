@@ -10,12 +10,17 @@ margin: 0 auto;
 	text-align: justify;
 	z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*	background-color: #e2d2b6;*/
 	background: url("../images/background5.jpg");
 =======
 /*	background-color: #e2d2b6;
 	background: url("../images/background5.jpg");*/
 >>>>>>> 5.4
+=======
+/*	background-color: #e2d2b6;
+	background: url("../images/background5.jpg");*/
+>>>>>>> 5.5
 	
 	/*-moz-box-shadow: 0 0 5px 5px #888;
 -webkit-box-shadow: 0 0 5px 5px#888;
@@ -28,15 +33,20 @@ box-shadow: 0 0 5px 5px #888;*/
 -moz-box-shadow: 3px 3px 4px #000;
 box-shadow: 3px 3px 4px #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
 */
 =======
 
 >>>>>>> 5.4
+=======
+
+>>>>>>> 5.5
 -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=225, Color='#000000')";
 
  
 
 filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=225, Color='#000000');
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 =======
@@ -69,6 +79,32 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=225, Colo
 	
 	
 }
+=======
+	*/
+	
+	
+}
+.contenteTextBox{
+	position:absolute;
+	top:0px;
+	left:100px;
+	font-weight:bold;
+	
+	text-align:center;
+	
+	
+}
+.topTextbox{
+	position:absolute;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	border: solid 1px black;
+	height: 100px;
+	
+	
+}
+>>>>>>> 5.5
 
 .listbox{
 	
@@ -91,7 +127,11 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=225, Colo
 	
 }
 .image{
+<<<<<<< HEAD
 		background: url("../images/background5.jpg");
+=======
+		background: url("../images/finegrain.png");
+>>>>>>> 5.5
 	
 }
 /*
