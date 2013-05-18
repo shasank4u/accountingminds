@@ -5,23 +5,20 @@
 	
 	left: 0px;
 	height:30px;
-<<<<<<< HEAD
-	width:100%;
-	text-align:center;
-	padding-left:20px;
-	padding-right:20px;
+font:16px/1.7em 'PTSansRegular', Arial, sans-serif;
+	
+
+	
 	-moz-box-shadow: 0 0 3px 3px #ede4d4;
 -webkit-box-shadow: 0 0 3px 3px #ede4d4;
 box-shadow: 0 0 3px 3px #ede4d4;
-=======
-	width:645px;
-	text-align:center;
-	padding-left:20px;
-	padding-right:20px;
+
+	width:620px;
+	text-align:left;
+	
 	/*-moz-box-shadow: 0 0 3px 3px #ede4d4;
 -webkit-box-shadow: 0 0 3px 3px #ede4d4;
 box-shadow: 0 0 3px 3px #ede4d4;*/ 
->>>>>>> 5.5
 	
 }
 
@@ -51,23 +48,21 @@ box-shadow: 0 0 3px 3px #ede4d4;*/
 	top: 160px;
 left: 0px;
 	height:30px;
-<<<<<<< HEAD
-	width:100%;
+	
 	text-align:left;
 	padding-left:20px;
 	padding-right:20px;
 	-moz-box-shadow: 0 0 3px 3px #ede4d4;
 -webkit-box-shadow: 0 0 3px 3px #ede4d4;
 box-shadow: 0 0 3px 3px #ede4d4;	
-=======
-	width:595px;
+	width:600px;
 	text-align:left;
 	padding-left:20px;
 	padding-right:20px;
+	
 	/*-moz-box-shadow: 0 0 3px 3px #ede4d4;
 -webkit-box-shadow: 0 0 3px 3px #ede4d4;
 box-shadow: 0 0 3px 3px #ede4d4;	*/
->>>>>>> 5.5
 }
 
 .personlable {
@@ -86,8 +81,7 @@ box-shadow: 0 0 3px 3px #ede4d4;	*/
 	
 	left: 0px;
 	height:30px;
-<<<<<<< HEAD
-	width:100%;
+	width:655px;
 	text-align:left;
 	padding-left:20px;
 	padding-right:20px;
@@ -96,26 +90,6 @@ box-shadow: 0 0 3px 3px #ede4d4;	*/
 box-shadow: 0 0 3px 3px #ede4d4;
 }
 
-.header{
-<<<<<<< HEAD
-font:16px/1.7em "pt-sans";
-=======
-font:16px/1.7em 'PTSansRegular', Arial, sans-serif;
->>>>>>> 5.4
-=======
-	width:595px;
-	text-align:left;
-	padding-left:20px;
-	padding-right:20px;
-	/*-moz-box-shadow: 0 0 3px 3px #ede4d4;
--webkit-box-shadow: 0 0 3px 3px #ede4d4;
-box-shadow: 0 0 3px 3px #ede4d4;*/
-}
-
-.header{
-font:16px/1.7em 'PTSansRegular', Arial, sans-serif;
->>>>>>> 5.5
-}
 
 
 

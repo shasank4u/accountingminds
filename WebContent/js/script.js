@@ -46,7 +46,7 @@ $('#menuTabOne').click(function(){
 
 	$('#listTabOne').addClass("ui-tabs-selected ui-state-active");
 	$('.ui-tabs-panel').css('min-height','500px');
-
+	
 	$('#tabPanel').load("pages/home.html");
 
 	/*var tabData = {
@@ -163,11 +163,9 @@ $('#menuTabTwo').click(function(){
 	resetDefaultCssForAll();
 	setMinHeight();
 	$.getScript("js/program.js");
-<<<<<<< HEAD
 	$('.ui-tabs-panel').css('min-height','700px');
-=======
-	$('.ui-tabs-panel').css('min-height','800px');
->>>>>>> 5.5
+
+
 	
 	
 	$('#tabPanel').load("pages/program.html");
@@ -203,6 +201,20 @@ $('#menuTabSix').click(function(){
 
 	
 	$('#listTabSix').addClass("ui-tabs-selected ui-state-active");
+
+	
+	
+	
+	});
+
+$('#menuTabEight').click(function(){
+	resetDefaultCssForAll();
+	setMinHeight();
+	$('#tabPanel').load("pages/aboutus.html");
+
+
+	
+	$('#listTabEight').addClass("ui-tabs-selected ui-state-active");
 
 	
 	

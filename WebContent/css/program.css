@@ -56,15 +56,9 @@ margin: 0 auto;
 	cursor: pointer;
 }
 .subContentText{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	font: 15px/1.7em "Myriad pro", Helvetica, Arial, Verdana, sans-serif;
-=======
+
 	font: 15px/1.7em 'PTSansRegular', Arial, sans-serif;;
->>>>>>> 5.4
-=======
-	font: 15px/1.7em 'PTSansRegular', Arial, sans-serif;;
->>>>>>> 5.5
+
 }
 
 .tableHeaderOne{
